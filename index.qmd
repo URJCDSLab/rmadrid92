@@ -1,0 +1,431 @@
+---
+title: "Cómo usamos R en el DSLAB: ETL, Dashboards, Modelos, y cosas que no imaginas"
+subtitle: "92ª Reunión Grupo de R de Madrid"
+author: "Carmen Lancho y Emilio L. Cano"
+institute: "Data Science Laboratory, Universidad Rey Juan Carlos"
+format: 
+  revealjs:
+    theme: [solarized, congresos.scss]
+    footer: "92ª Reunión Grupo de R de Madrid, 30 de octubre 2024"
+    logo: img/DSLab_logo.png
+    menu:
+      numbers: false
+    show-slide-number: all
+    slide-number: true
+    self-contained: false
+---
+
+## Contexto
+
+
+
+
+# Proyectos de investigación
+
+
+## xxx
+
+
+Dejo contenido de la presentación que hice en SEIO que hay algunas capturas
+
+Cosas a meter:
+
+- Paquete placido
+
+- Brasil
+
+- Dephimática
+
+- ONU
+
+- Apps docentes (Monty Hall)
+
+- ....
+
+
+## Paquete
+
+### Buenas prácticas ingeniería del software
+
+* Control de versiones con git y GitHub: [https://github.com/DavidALeo/PlacidoProject/](https://github.com/DavidALeo/PlacidoProject/)
+
+* Documentación con {pkgdown}: [https://davidaleo.github.io/PlacidoProject/](https://davidaleo.github.io/PlacidoProject/)
+
+* Gestión de la configuración con {renv}
+
+* Pruebas automatizadas con {testthat}
+
+* Opciones de accesibilidad
+
+## Aplicación Shiny
+
+* Aplicación creada con {golem}, automáticamente como paquete.
+
+* Disponible en: [https://dleo.shinyapps.io/placidoproject/](https://dleo.shinyapps.io/placidoproject/)
+
+:::{style="text-align:center"}
+🖥️ Live demo 🤞🏻
+:::
+
+# Conclusiones y trabajo futuro
+
+## Conclusiones
+
+* Resultado de Trabajo de fin de Grado con impacto y utilidad real
+
+* La estadística que aparece en legislación y normas nos abre muchas posibilidades interesantes
+
+* Las aplicaciones shiny permiten crear dashboards reactivos sin programación (web)
+
+* Explotando todo el potencial estadístico y computacional
+
+* Aplicando buenas prácticas de ingeniería del software (software de calidad)
+
+
+## Trabajo futuro
+
+* Personalizar para empresas interesadas
+
+* Automatizar e integrar con sistemas propios
+
+* Añadir más análisis adicionales
+
+* Mejorar informe
+
+
+# Dashboards más completos
+
+## AfCIOT - TiVA indicators
+
+* Joint project with [UNECA](https://www.uneca.org), [WTO](https://www.wto.org), and [OECD](https://www.oecd.org)
+
+* International Trade, Environmental and Employment Indicators
+
+* International and multidisciplinar team
+
+* Industry and product classification, gap estimation, policy simulation and [visualisation]{.red}
+
+* Key result: A [shiny app]{.red} for reporting, visualisation and policy simulation
+
+* Several important challenges for the multinational scope
+
+## AfCIOT - TiVA indicators
+
+![](img/afciot.png){width="70%" fig-align="center"}
+
+[Acknowledgements:]{.ack} 
+![](img/uneca.png){height="50"}
+![](img/wto.png){height="50"}
+![](img/oecd.png){height="50"}
+
+:::{style="text-align:center"}
+🖥️ Live demo 🤞🏻
+:::
+
+# ¡Gracias! 
+
+`r fontawesome::fa("x-twitter", fill = "#749dae")` [@emilopezcano](https://twitter.com/emilopezcano)
+
+
+[http://emilio.lcano.com](https://emilio.lcano.com)
+
+[emilio.lopez@urjc.es]{.red}
+
+Slides: [emilio.lcano.com/p/seio2023](http://emilio.lcano.com/p/seio2023/)
+
+\
+
+Preguntas
+
+# Contenido extra
+
+Algunos ejemplos y consejos sobre dashboards con R
+
+## Static reports
+
+:::: {.columns} 
+
+::: {.column}
+* Balanced Scorecards: a classical example in the business domain
+
+* Statistical reports: typically key results with charts, tables, and interpretation
+
+* From its origin, designed to be printed and read in paper, [pdf]{.red} format
+
+:::
+
+::: {.column}
+![](img/static_report.png){width=420}
+:::
+
+::::
+
+::: footer
+[Download](http://emilio.lcano.com/p/enbis2023/static_report.Rmd) .Rmd source | [See online](http://emilio.lcano.com/p/enbis2023/static_report.pdf)
+:::
+
+## Static dashboards
+
+More compact, screen friendly
+
+![](img/static_dashboard.png){fig-align=center}
+
+::: footer
+[Download](http://emilio.lcano.com/p/enbis2023/static_dashboard.Rmd) .Rmd source | [See online](http://emilio.lcano.com/p/enbis2023/static_dashboard.html)
+:::
+
+## Interactive dashboards
+
+Static report with interactive elements (_widgets_)
+
+![](img/interactive_dashboard.png){fig-align=center}
+
+::: footer
+[Download](http://emilio.lcano.com/p/enbis2023/interactive_dashboard.Rmd) .Rmd source | [See online](http://emilio.lcano.com/p/enbis2023/interactive_dashboard.html)
+:::
+
+## Limitations
+
+* Limited to what the statistician wants to show
+
+* Not only statistical
+experts are going to use the Data Science products. 
+
+* Decision making 
+at different levels, from process owners to
+executive managers. 
+
+. . .
+
+* [Reactive]{.red} apps lead 
+stakeholders through the Data Science knowledge discovery path
+
+* Well designed interfaces for cutting-edge models foster explainability
+
+
+
+# Reactive apps
+
+
+
+## Reactive programming
+
+>The key idea of reactive programming is to specify a graph of dependencies so that when an input changes, all related outputs are automatically updated.
+>
+
+:::{style="text-align:right;"}
+_Hadley Wickham, [Mastering Shiny](https://mastering-shiny.org/basic-reactivity.html)_
+:::
+
+\
+\
+
+. . .
+
+The [outputs]{.red}, i.e., plots, tables, etc., are generated by R when the [inputs]{.red}, i.e., user selections, change.
+
+## Shiny applications
+
+
+* "Regular" R code
+
+* Nothing else needed, all the HTML, CSS and JS is automatically generated
+
+* Two "elements"
+
+* `ui` (user interface, web page). Contains _inputs_ and _outputs_
+
+* `server`. Contains _reactive_ objects and [rendering]{.red} functions 
+
+:::: {.columns}
+
+::: {.column}
+
+- [Download](https://shiny.posit.co/r/articles/start/cheatsheet/) Shiny _cheetsheet_
+
+- [Visit](https://shiny.posit.co/r/gallery/) the Shiny gallery
+
+:::
+
+::: {.column width="25%"}
+
+![](img/shiny.png){fig-align=center width="140"}
+
+:::
+
+::::
+
+
+
+## A simple shiny application
+
+::: {.small}
+
+```{r}
+#| label: shinypenguins
+#| eval: false
+#| echo: true
+library(shiny)
+library(palmerpenguins); library(plotly); library(ggplot2)
+ui <- fluidPage(title = "Simple demo app",
+  sidebarLayout(
+    sidebarPanel(  
+      varSelectInput("varx", "Explanatory variable", penguins |> select(where(is.numeric))),
+      varSelectInput("vary", "Response variable", penguins |> select(where(is.numeric))),
+      varSelectInput("varcol", "Colour variable", penguins |> select(where(is.factor)))),
+    mainPanel( 
+      plotlyOutput("plot"),
+      verbatimTextOutput("model")))
+)
+server <- function(input, output, session){
+  output$plot <- renderPlotly({
+    p <- penguins |> ggplot(aes_string(x = input$varx, y = input$vary, col = input$varcol)) +
+      geom_point()
+    ggplotly(p)})
+  output$model <- renderPrint({
+    m <- lm(get(input$vary) ~ get(input$varx) + get(input$varcol), penguins)
+    summary(m)})
+}
+shinyApp(ui = ui, server = server)
+```
+
+:::
+
+🖥️ Live demo 🤞🏻
+
+
+
+## Adding nice features
+
+:::: {.columns}
+
+::: {.column}
+
+### Dashboards
+
+* [shinydashboard](https://rstudio.github.io/shinydashboard/)
+
+* [bs4dash](https://rinterface.github.io/bs4Dash/index.html)
+
+* [bslib](https://rstudio.github.io/bslib/)
+
+### Configuration
+
+* Multilanguage apps with [shiny.i18n](https://appsilon.github.io/shiny.i18n/index.html)
+
+* [config](https://rstudio.github.io/config/index.html)
+
+:::
+
+::: {.column}
+
+### Software Eng. good practices
+
+* Package versions with [renv](https://rstudio.github.io/renv/index.html)
+
+* [testthat](https://testthat.r-lib.org) and [shinytest](https://rstudio.github.io/shinytest/)
+
+* Version Control and Continuous Integration, e.g., with [GitHub](https://github.com)
+
+* [Deployment as Docker container](https://hosting.analythium.io/running-shiny-server-in-docker/)
+
+:::
+
+::::
+
+## Shiny meta frameworks
+
+Sets of packages with functions that generates code for shiny applications. Especially useful to extend the UI capabilities with more JS and CSS.
+
+* [golemverse](https://golemverse.org) by ThinkR
+
+* [rhinoverse](https://rhinoverse.dev/#rhino) by Appsilon
+
+* [leprechaun](https://leprechaun.opifex.org/#/)
+
+
+## My workflow
+
+1. [GitHub repository]{.red}. Branch per feature strategy.
+
+2. RStudio project
+
+3. `renv::init()`. Control of packages versions
+
+4. Separate `ui.R` and `server.R` files
+
+5. Folder `R` with `_setup.R`, `load_data.R` scripts, and functions/modules definition scripts
+
+6. Multilanguage if needed with {shiny.i18n}
+
+7. Use of {config} to avoid hard coding things and other uses
+
+9. Deploy with Docker or at shinyapps.io
+
+
+# Success stories
+
+## Some examples
+
+* EU Datathon contest 2019
+
+* Particle tracking app
+
+* Monty Hall problem
+
+* Quironsalud & UCLM R&D contract
+
+* Tests & Trials (Tentamus group) SÍAGRO app
+
+* Smart Cities project
+
+* UNECA AfCIOT project
+
+## Research and teaching - free access
+
+* [EU Datathon contest 2019](https://elcano.shinyapps.io/EnvyRState/)
+
+* [Particle tracking app](https://lcano.shinyapps.io/particleDiffusion/)
+
+* [Monty Hall problem](https://elcano.shinyapps.io/monty_hall/) (Spanish) | [Code](https://github.com/emilopezcano/monty_hall)
+
+## Smart Cities
+
+* Use cases for Tourism, Healthcare, and Infrastructures in Madrid Region
+
+* Coherent step-by-step apps for the use cases (load data - visualisation - modelling - getting results)
+
+* Some use cases with [Shiny]{.red}, other with Python or Power BI
+
+* Example: [http://www.citizenlabhub.es/cu/55](http://www.citizenlabhub.es/cu/55)
+
+## Síagro - Animal production SPC 
+
+:::: {.columns}
+
+::: {.column width="40%"}
+- [CRO clinical and nutritional trials](http://www.testsandtrials.com)
+- Shiny app for their customers as a value added service
+- Important [**productivity improvements**]
+- Simulation and parameterised reports
+
+:::
+
+::: {.column width="60%"}
+
+![](img/testsapp.png)
+
+<img src="img/tests.png" style="width:50%;margin-left:auto;margin-right:auto;display:block;"/>
+
+::: {.small}
+[https://www.siagro.es](https://www.siagro.es)
+| 🖥️ Live demo 🤞🏻
+:::
+
+:::
+
+::::
+
+
+
+
