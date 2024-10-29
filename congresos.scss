@@ -10,7 +10,7 @@
 }
 
 .red {
-  color: #E6135F;
+  color: #CF4078; 
 }
 
 #title-slide .title {
@@ -34,4 +34,15 @@
   margin-right: 10px;
   display: block;
   float: left;
+}
+
+/* Establecer color de fondo y texto para todas las diapositivas */
+.reveal {
+  background-color: #F6FCFF;
+  color: #012779;
+}
+
+/* Asegurar que el color de texto personalizado se aplique a elementos principales */
+.reveal h1, .reveal h2, .reveal h3, .reveal p, .reveal li {
+  color: #012779;
 }
