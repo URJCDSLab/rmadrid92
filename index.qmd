@@ -67,6 +67,16 @@ Cosas a meter:
 🖥️ Live demo 🤞🏻
 :::
 
+# Docencia
+
+-   Seminarios
+
+-   Asignaturas en abierto
+
+    -   <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
+
+    -   <https://urjcdslab.github.io/InferenciaEstadistica/>
+
 # Conclusiones y trabajo futuro
 
 ## Conclusiones
