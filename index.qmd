@@ -94,10 +94,13 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 ## Asignaturas en abierto
 
-  -   <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
 
-  -   <https://urjcdslab.github.io/InferenciaEstadistica/>
+-   Aprendizaje automático:
+    <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
 
+-   Inferencia estadística:
+    <https://urjcdslab.github.io/InferenciaEstadistica/>
+    
 -   Grados/Máster: Matemáticas, Ciencia e Ingeniería de Datos, Biología, Ingeniería Industrial, Ingeniería de la Ciberseguridad, Inteligencia Artificial, Máster Data Science, etc.
 
 
@@ -115,14 +118,6 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
   <https://emilopezcano.github.io/seminario_fcs_urjc_2024/>
   
 
-## Asignaturas en abierto
-
--   Aprendizaje automático:
-    <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
-
--   Inferencia estadística:
-    <https://urjcdslab.github.io/InferenciaEstadistica/>
-    
     
 ## Libros CC
 
