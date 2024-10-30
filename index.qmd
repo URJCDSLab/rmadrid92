@@ -34,18 +34,12 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 # Investigación
 
 -   [CSViz: Class Separability Visualization for
-    high-dimensional](https://link.springer.com/article/10.1007/s10489-023-05149-4)
-
-    [
-    datasets](https://link.springer.com/article/10.1007/s10489-023-05149-4)
+    high-dimensional datasets](https://link.springer.com/article/10.1007/s10489-023-05149-4)
 
     Repositorio asociado: <https://github.com/URJCDSLab/CSViz>
 
--   [Importance of Visual Support Through Lipreading in the
-    ](https://journals.sagepub.com/doi/10.1177/00238309241270741)
-
-    [Identification of Words in Spanish
-    Language](https://journals.sagepub.com/doi/10.1177/00238309241270741)
+-  [Importance of Visual Support Through Lipreading in the 
+    Identification of Words in Spanish Language](https://journals.sagepub.com/doi/10.1177/00238309241270741)
 
     Repositorio asociado: <https://tinyurl.com/4frdbxam>
 
@@ -66,6 +60,15 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 # Docencia
 
+-   Grados/Máster: Matemáticas, Ciencia e Ingeniería de Datos, Biología, Ingeniería Industrial, Ingeniería de la Ciberseguridad, Inteligencia Artificial, Máster Data Science, etc.
+
+-   Asignaturas en abierto
+
+    -   <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
+
+    -   <https://urjcdslab.github.io/InferenciaEstadistica/>
+    
+# Docencia
 -   Seminarios
 
     -   Primer dashboard en Shiny:
@@ -74,12 +77,6 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
     -   Gráficos interactivos en R:
 
         <https://github.com/carmenlancho/GraficosInteractivosR>
-
--   Asignaturas en abierto
-
-    -   <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
-
-    -   <https://urjcdslab.github.io/InferenciaEstadistica/>
 
 # Docencia
 
