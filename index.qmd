@@ -20,6 +20,8 @@ editor:
 
 # Contexto
 
+## DSLAB 
+
 [DSLAB](https://www.datasciencelab.es/): Grupo de investigación en
 Fundamentos y Aplicaciones de la Ciencia de Datos
 
@@ -31,7 +33,22 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 -   Divulgación
 
+## Recursos
+
+- GRUPO DE INVESTIGACIÓN DE ALTO RENDIMIENTO EN FUNDAMENTOS Y APLICACIONES DE LA CIENCIA DE DATOS DE LA UNIVERSIDAD REY JUAN CARLOS / FOUNDATIONS AND APPLICATIONS OF DATA SCIENCE GROUP OF UNIVERSIDAD REY JUAN CARLOS
+
+- 28 investigadores
+
+- Espacios de investigación
+
+- Servidores propios
+
+- Infraestructura URJC
+
+
 # Investigación
+
+## Artículos recientes
 
 -   [CSViz: Class Separability Visualization for
     high-dimensional](https://link.springer.com/article/10.1007/s10489-023-05149-4)
@@ -51,113 +68,185 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
     <!--# https://github.com/URJCDSLab/VisualSupport_Lipreading/blob/main/LipReading_Analyses.md -->
 
-# Proyectos de investigación: COVID
+## Proyectos de investigación: COVID
 
 -   COVID
 
 ![](img/covid_informe.png){fig-align="center" width="500"}
 
-# Proyectos de investigación: Caderas
+## Proyectos de investigación: Caderas
 
 -   Predicción de la capacidad para deambulación al mes de fractura de
     cadera
 
     <https://clancho.shinyapps.io/APP_fractura_cadera/>
 
-# Docencia
+## Proyectos de investigación: DICYME
 
--   Seminarios
+* Dynamic Industrial Cyber Risk Modelling based on Evidence (DICYME) research project (CPP2021-009025)
 
-    -   Primer dashboard en Shiny:
-        <https://github.com/carmenlancho/Seminario_CienciasSalud>
+* Proyecto de colaboración público-privada con DeNexus TECH SL.
 
-    -   Gráficos interactivos en R:
+* Dashboard: <https://gondor.etsii.urjc.es:3866>
 
-        <https://github.com/carmenlancho/GraficosInteractivosR>
+* Conexión con MongoDB
 
--   Asignaturas en abierto
+* App relacionada: [CRAS](http://gondor.etsii.urjc.es:3804/)
 
-    -   <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
 
-    -   <https://urjcdslab.github.io/InferenciaEstadistica/>
 
 # Docencia
+
+## Seminarios
+
+-   Primer dashboard en Shiny:
+
+    <https://github.com/carmenlancho/Seminario_CienciasSalud>
+
+-   Gráficos interactivos en R:
+
+    <https://github.com/carmenlancho/GraficosInteractivosR>
+
+- Generación con R de tablas y gráficos listos para publicar
+  <https://emilopezcano.github.io/seminario_fcs_urjc_2024/>
+  
+
+## Asignaturas en abierto
+
+-   Aprendizaje automático:
+    <https://urjcdslab.github.io/AprendizajeAutomaticoI/>
+
+-   Inferencia estadística:
+    <https://urjcdslab.github.io/InferenciaEstadistica/>
+    
+    
+## Libros CC
+
+- [Estadística Aplicada a las Ciencias y la Ingeniería](https://emilopezcano.github.io/estadistica-ciencias-ingenieria/index.html)
+
+- [Introducción al software estadístico R](https://www.lcano.com/b/iser/_book/)
+
+- Algún otro inacabado, y otros un tanto obsoletos
+
+- Obra colectiva [Fundamentos de ciencia de datos con R](https://cdr-book.github.io) editada por Gema Fernández-Avilés.
+
+## Proyectos docentes
 
 -   Proyecto de Innovación Educativa: DSEXAMS
 
-    Paquete de R: <https://github.com/emilopezcano/dsexams>
+    Paquete de R: <https://github.com/URJCDSLab/dsexams>
+    
 
--   Apps docentes (Monty Hall)
+    
+## TFGs
 
-# Conclusiones y trabajo futuro
+- [placido: un paquete y aplicación shiny para evaluar el contenido efectivo de los envases](https://www.lcano.com/p/seio2023/#/title-slide)
 
-## Conclusiones
+- [Unit testing in Statistical Software: an implementation in the 📦 {SixSigma} R package](https://www.lcano.com/p/seio2022a/#1)
 
--   R nos ayuda en gran diversidad de tareas
+## Apps docentes
 
--   R, R markdown, quarto, shiny favorece y facilita su uso
+- [Probabilidad](https://elcano.shinyapps.io/probability_as_relative_frequency/)
+
+- [Derivada](https://elcano.shinyapps.io/derivada/)
+
+- [Criptografía](https://elcano.shinyapps.io/cesar/)
+
+- [Control de calidad](https://lcano.shinyapps.io/demo-shiny-quality/)
+
+- [Monty Hall](https://elcano.shinyapps.io/monty_hall/)
 
 
-## Trabajo futuro
+# Transferencia - Casos de éxito
 
--   Paquete de R asociado a Tesis doctoral
+## EVASTUR
 
--   Más dashboard
+-   Proyecto con la empresa [Dephimática[(https://www.dephimatica.es)
 
--   Mejorar la generación de apuntes con R
+-   Especializada en estadística pública
 
-## xxx
+-   _Capacity building_ en Ciencia de Datos
 
-Dejo contenido de la presentación que hice en SEIO que hay algunas
-capturas
+- Sistema de indicadores de turismo sostenible: exploración, visualización, análisis
 
-Cosas a meter:
+![](img/dephimatica.png){width="50%" fig-align="center"}
 
--   Paquete placido
 
--   Brasil
 
--   Dephimática
+## EVASTUR - Dashboard
 
--   ONU
+![](img/evastur.png){width="70%" fig-align="center"}
 
--   Apps docentes (Monty Hall)
-
--   ....
-
-## Paquete
-
-### Buenas prácticas ingeniería del software
-
--   Control de versiones con git y GitHub:
-    <https://github.com/DavidALeo/PlacidoProject/>
-
--   Documentación con {pkgdown}:
-    <https://davidaleo.github.io/PlacidoProject/>
-
--   Gestión de la configuración con {renv}
-
--   Pruebas automatizadas con {testthat}
-
--   Opciones de accesibilidad
-
-## Aplicación Shiny
-
--   Aplicación creada con {golem}, automáticamente como paquete.
-
--   Disponible en: <https://dleo.shinyapps.io/placidoproject/>
 
 ::: {style="text-align:center"}
 🖥️ Live demo 🤞🏻
 :::
 
-# 
+
+## EPE Brasil
+
+-   Weaving Connections: A Comprehensive Diagnosis of Access to and Use of Electricity and Essential Services by Low-Income Population (MRC- SP 0366)
+
+-   Proyecto de transferencia con MRC Consultants and Advisors (Grupo Veolia)
+
+-   ETL, Modelo de datos, visualización
+
+-   Indicadores de pobreza energética (UCM)
+
+-   Presentado en reunión del G20
 
 
 
-## 
 
-# Dashboards más completos
+## OBEPE
+
+![](img/obepe.png){width="70%" fig-align="center"}
+
+[Acknowledgements:]{.ack} 
+![](img/logo_idb.png){height="50"}
+![](img/logo_epe_colors.jpg){height="50"} 
+![](img/logo_mme.png){height="50"}
+
+::: {style="text-align:center"}
+🖥️ Live demo 🤞🏻
+:::
+
+
+## SHAPYPRO
+
+::: columns
+::: {.column width="60%"}
+-   [Embresa biotecnológica](https://shapypro.com)
+-   Proficiency Testing
+-  Asesoría en ciencia de datos, informes parcialmente automatizados.
+-   En proceso: paquete y aplicación shiny
+
+<img src="img/shapypro.png" style="width:60%;margin-left:auto;margin-right:auto;display:block;"/>
+
+:::
+
+
+::: {.column width="40%"}
+<blockquote class="twitter-tweet"><p lang="es" dir="ltr">📍ENAC ha concedido recientemente la primera acreditación a <a href="https://twitter.com/shapypro?ref_src=twsrc%5Etfw">@SHAPYPRO</a> como proveedor de ensayos de aptitud de eficacia biocida en productos antisépticos y desinfectantes químicos. Estos ensayos están destinados a la evaluación de los biocidas en base a su actividad (bactericida,… <a href="https://t.co/T2WMrB3EWQ">pic.twitter.com/T2WMrB3EWQ</a></p>&mdash; ENAC (@ENAC_acredita) <a href="https://twitter.com/ENAC_acredita/status/1845762208606642671?ref_src=twsrc%5Etfw">October 14, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+:::
+:::
+
+## IMASDE Agroalimentaria
+
+* <http://e-imasde.eu/language/es/home/>
+
+* TFG aprendizaje automático
+
+* Informes automatizados de I+D+i
+
+* _Capacity building_
+
+::: {style="text-align:center"}
+![](img/imasde.png){width=400px}
+:::
+
 
 ## AfCIOT - TiVA indicators
 
@@ -176,6 +265,9 @@ Cosas a meter:
 
 -   Several important challenges for the multinational scope
 
+
+
+
 ## AfCIOT - TiVA indicators
 
 ![](img/afciot.png){width="70%" fig-align="center"}
@@ -186,284 +278,6 @@ Cosas a meter:
 ::: {style="text-align:center"}
 🖥️ Live demo 🤞🏻
 :::
-
-# ¡Gracias!
-
-`r fontawesome::fa("x-twitter", fill = "#749dae")`
-[\@emilopezcano](https://twitter.com/emilopezcano)
-
-[http://emilio.lcano.com](https://emilio.lcano.com)
-
-[emilio.lopez\@urjc.es]{.red}
-
-[carmen.lancho\@urjc.es]{.red}
-
-Slides:
-[emilio.lcano.com/p/seio2023](http://emilio.lcano.com/p/seio2023/)
-
-\
-
-Preguntas
-
-# Contenido extra
-
-Algunos ejemplos y consejos sobre dashboards con R
-
-## Static reports
-
-::: columns
-::: column
--   Balanced Scorecards: a classical example in the business domain
-
--   Statistical reports: typically key results with charts, tables, and
-    interpretation
-
--   From its origin, designed to be printed and read in paper,
-    [pdf]{.red} format
-:::
-
-::: column
-![](img/static_report.png){width="420"}
-:::
-:::
-
-::: footer
-[Download](http://emilio.lcano.com/p/enbis2023/static_report.Rmd) .Rmd
-source \| [See
-online](http://emilio.lcano.com/p/enbis2023/static_report.pdf)
-:::
-
-## Static dashboards
-
-More compact, screen friendly
-
-![](img/static_dashboard.png){fig-align="center"}
-
-::: footer
-[Download](http://emilio.lcano.com/p/enbis2023/static_dashboard.Rmd)
-.Rmd source \| [See
-online](http://emilio.lcano.com/p/enbis2023/static_dashboard.html)
-:::
-
-## Interactive dashboards
-
-Static report with interactive elements (*widgets*)
-
-![](img/interactive_dashboard.png){fig-align="center"}
-
-::: footer
-[Download](http://emilio.lcano.com/p/enbis2023/interactive_dashboard.Rmd)
-.Rmd source \| [See
-online](http://emilio.lcano.com/p/enbis2023/interactive_dashboard.html)
-:::
-
-## Limitations
-
--   Limited to what the statistician wants to show
-
--   Not only statistical experts are going to use the Data Science
-    products.
-
--   Decision making at different levels, from process owners to
-    executive managers.
-
-. . .
-
--   [Reactive]{.red} apps lead stakeholders through the Data Science
-    knowledge discovery path
-
--   Well designed interfaces for cutting-edge models foster
-    explainability
-
-# Reactive apps
-
-## Reactive programming
-
-> The key idea of reactive programming is to specify a graph of
-> dependencies so that when an input changes, all related outputs are
-> automatically updated.
-
-::: {style="text-align:right;"}
-*Hadley Wickham, [Mastering
-Shiny](https://mastering-shiny.org/basic-reactivity.html)*
-:::
-
-\
-\
-
-. . .
-
-The [outputs]{.red}, i.e., plots, tables, etc., are generated by R when
-the [inputs]{.red}, i.e., user selections, change.
-
-## Shiny applications
-
--   "Regular" R code
-
--   Nothing else needed, all the HTML, CSS and JS is automatically
-    generated
-
--   Two "elements"
-
--   `ui` (user interface, web page). Contains *inputs* and *outputs*
-
--   `server`. Contains *reactive* objects and [rendering]{.red}
-    functions
-
-::: columns
-::: column
--   [Download](https://shiny.posit.co/r/articles/start/cheatsheet/)
-    Shiny *cheetsheet*
-
--   [Visit](https://shiny.posit.co/r/gallery/) the Shiny gallery
-:::
-
-::: {.column width="25%"}
-![](img/shiny.png){fig-align="center" width="140"}
-:::
-:::
-
-## A simple shiny application
-
-::: small
-```{r}
-#| label: shinypenguins
-#| eval: false
-#| echo: true
-library(shiny)
-library(palmerpenguins); library(plotly); library(ggplot2)
-ui <- fluidPage(title = "Simple demo app",
-  sidebarLayout(
-    sidebarPanel(  
-      varSelectInput("varx", "Explanatory variable", penguins |> select(where(is.numeric))),
-      varSelectInput("vary", "Response variable", penguins |> select(where(is.numeric))),
-      varSelectInput("varcol", "Colour variable", penguins |> select(where(is.factor)))),
-    mainPanel( 
-      plotlyOutput("plot"),
-      verbatimTextOutput("model")))
-)
-server <- function(input, output, session){
-  output$plot <- renderPlotly({
-    p <- penguins |> ggplot(aes_string(x = input$varx, y = input$vary, col = input$varcol)) +
-      geom_point()
-    ggplotly(p)})
-  output$model <- renderPrint({
-    m <- lm(get(input$vary) ~ get(input$varx) + get(input$varcol), penguins)
-    summary(m)})
-}
-shinyApp(ui = ui, server = server)
-```
-:::
-
-🖥️ Live demo 🤞🏻
-
-## Adding nice features
-
-::: columns
-::: column
-### Dashboards
-
--   [shinydashboard](https://rstudio.github.io/shinydashboard/)
-
--   [bs4dash](https://rinterface.github.io/bs4Dash/index.html)
-
--   [bslib](https://rstudio.github.io/bslib/)
-
-### Configuration
-
--   Multilanguage apps with
-    [shiny.i18n](https://appsilon.github.io/shiny.i18n/index.html)
-
--   [config](https://rstudio.github.io/config/index.html)
-:::
-
-::: column
-### Software Eng. good practices
-
--   Package versions with
-    [renv](https://rstudio.github.io/renv/index.html)
-
--   [testthat](https://testthat.r-lib.org) and
-    [shinytest](https://rstudio.github.io/shinytest/)
-
--   Version Control and Continuous Integration, e.g., with
-    [GitHub](https://github.com)
-
--   [Deployment as Docker
-    container](https://hosting.analythium.io/running-shiny-server-in-docker/)
-:::
-:::
-
-## Shiny meta frameworks
-
-Sets of packages with functions that generates code for shiny
-applications. Especially useful to extend the UI capabilities with more
-JS and CSS.
-
--   [golemverse](https://golemverse.org) by ThinkR
-
--   [rhinoverse](https://rhinoverse.dev/#rhino) by Appsilon
-
--   [leprechaun](https://leprechaun.opifex.org/#/)
-
-## My workflow
-
-1.  [GitHub repository]{.red}. Branch per feature strategy.
-
-2.  RStudio project
-
-3.  `renv::init()`. Control of packages versions
-
-4.  Separate `ui.R` and `server.R` files
-
-5.  Folder `R` with `_setup.R`, `load_data.R` scripts, and
-    functions/modules definition scripts
-
-6.  Multilanguage if needed with {shiny.i18n}
-
-7.  Use of {config} to avoid hard coding things and other uses
-
-8.  Deploy with Docker or at shinyapps.io
-
-# Success stories
-
-## Some examples
-
--   EU Datathon contest 2019
-
--   Particle tracking app
-
--   Monty Hall problem
-
--   Quironsalud & UCLM R&D contract
-
--   Tests & Trials (Tentamus group) SÍAGRO app
-
--   Smart Cities project
-
--   UNECA AfCIOT project
-
-## Research and teaching - free access
-
--   [EU Datathon contest 2019](https://elcano.shinyapps.io/EnvyRState/)
-
--   [Particle tracking
-    app](https://lcano.shinyapps.io/particleDiffusion/)
-
--   [Monty Hall problem](https://elcano.shinyapps.io/monty_hall/)
-    (Spanish) \| [Code](https://github.com/emilopezcano/monty_hall)
-
-## Smart Cities
-
--   Use cases for Tourism, Healthcare, and Infrastructures in Madrid
-    Region
-
--   Coherent step-by-step apps for the use cases (load data -
-    visualisation - modelling - getting results)
-
--   Some use cases with [Shiny]{.red}, other with Python or Power BI
-
--   Example: <http://www.citizenlabhub.es/cu/55>
 
 ## Síagro - Animal production SPC
 
@@ -485,3 +299,73 @@ JS and CSS.
 :::
 :::
 :::
+
+
+
+## Smart Cities
+
+-   Casos de uso para turismo, Use cases for Tourism, Healthcare, and Infrastructures in Madrid
+    Region
+
+-   Coherent step-by-step apps for the use cases (load data -
+    visualisation - modelling - getting results)
+
+-   Some use cases with [Shiny]{.red}, other with Python or Power BI
+
+-   Example: <http://www.citizenlabhub.es/cu/55>
+
+
+# Conclusiones y trabajo futuro
+
+## Conclusiones
+
+-   R nos ayuda en gran diversidad de tareas
+
+-   R, R markdown, quarto, shiny favorece y facilita su uso
+
+- Estamos listos para despliegues en producción, sin complejos
+
+
+## Trabajo futuro
+
+-   Paquete de R asociado a Tesis doctoral
+
+-   Más dashboard
+
+-   Mejorar la generación de apuntes con R
+
+- Más proyectos con empresas
+
+- Más proyectos en organismos internacionales
+
+- Nueva tesis doctoral 😉
+
+
+
+
+
+# ¡Gracias!
+
+[carmen.lancho\@urjc.es]{.red}
+
+
+[emilio.lopez\@urjc.es]{.red}
+
+
+<!-- `r fontawesome::fa("x-twitter", fill = "#749dae")` -->
+[\@DSLAB_URJC](https://x.com/DSLAB_URJC)
+
+<https://www.datasciencelab.es>
+
+
+
+Slides:
+[https://urjcdslab.github.io/rmadrid92](https://urjcdslab.github.io/rmadrid92)
+
+\
+
+**Preguntas**
+
+
+
+
