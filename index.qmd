@@ -100,8 +100,10 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 -   Inferencia estadística:
     <https://urjcdslab.github.io/InferenciaEstadistica/>
-    
--   Grados/Máster: Matemáticas, Ciencia e Ingeniería de Datos, Biología, Ingeniería Industrial, Ingeniería de la Ciberseguridad, Inteligencia Artificial, Máster Data Science, etc.
+
+## Grados/Master
+
+-   Matemáticas, Ciencia e Ingeniería de Datos, Biología, Ingeniería Industrial, Ingeniería de la Ciberseguridad, Inteligencia Artificial, Ingeniería Informática, Diseño y Desarrollo de Videojuegos, Máster Data Science, Máster en Dirección de Turismo Internacional, etc.
 
 
 ## Seminarios
@@ -127,13 +129,14 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 - Algún otro inacabado, y otros un tanto obsoletos
 
-- Obra colectiva [Fundamentos de ciencia de datos con R](https://cdr-book.github.io) editada por Gema Fernández-Avilés.
+- Obra colectiva [Fundamentos de ciencia de datos con R](https://cdr-book.github.io) editada por Gema Fernández-Avilés y José María Montero.
 
 ## Proyectos docentes
 
 -   Proyecto de Innovación Educativa: DSEXAMS
 
     Paquete de R: <https://github.com/URJCDSLab/dsexams>
+    [Presentación en EDULEARN 23](https://www.lcano.com/p/edulearn23/#/title-slide)
     
 
     
@@ -160,7 +163,7 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 ## EVASTUR
 
--   Proyecto con la empresa [Dephimática[(https://www.dephimatica.es)
+-   Proyecto con la empresa [Dephimática](https://www.dephimatica.es)
 
 -   Especializada en estadística pública
 
@@ -168,7 +171,11 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 - Sistema de indicadores de turismo sostenible: exploración, visualización, análisis
 
+<!-- <img src="img/dephimatica.png" width="50%"/> -->
+
+<div>
 ![](img/dephimatica.png){width="50%" fig-align="center"}
+</div>
 
 
 
@@ -215,7 +222,7 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 ::: columns
 ::: {.column width="60%"}
--   [Embresa biotecnológica](https://shapypro.com)
+-   [Empresa biotecnológica](https://shapypro.com)
 -   Proficiency Testing
 -  Asesoría en ciencia de datos, informes parcialmente automatizados.
 -   En proceso: paquete y aplicación shiny
@@ -234,7 +241,7 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 ## IMASDE Agroalimentaria
 
-* <http://e-imasde.eu/language/es/home/>
+* <https://e-imasde.eu/language/es/home/>
 
 * TFG aprendizaje automático
 
@@ -303,7 +310,7 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 ## Smart Cities
 
--   Casos de uso para turismo, Use cases for Tourism, Healthcare, and Infrastructures in Madrid
+-   Use cases for Tourism, Healthcare, and Infrastructures in Madrid
     Region
 
 -   Coherent step-by-step apps for the use cases (load data -
