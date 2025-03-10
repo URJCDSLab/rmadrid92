@@ -83,7 +83,7 @@ Fundamentos y Aplicaciones de la Ciencia de Datos
 
 * Proyecto de colaboración público-privada con DeNexus TECH SL.
 
-* Dashboard: <https://gondor.etsii.urjc.es:3866>
+* Prototipo dashboard (pendiente de publicar)
 
 * Conexión con MongoDB
 
